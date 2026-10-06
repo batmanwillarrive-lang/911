@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="marque. Collectible classic cars, inspected in person.">
+<title>marque. Collectible cars</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="top" id="top"><div class="wrap"><div class="left"><a class="logo" href="#">marque.</a><button class="menu" aria-label="Menu"><i></i><i></i><i></i></button></div>
+<div class="right"><ul><li><a href="#garage">Garage</a></li><li><a href="#how">How it works</a></li><li><a href="#join">Sell a car</a></li></ul><span>ENG</span>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Search"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></div></div></div>
+
+<header class="hero" id="hero">
+ <div class="stage">
+  <div class="year swap" id="year" aria-hidden="true">1996</div>
+  <div class="loc swap" id="loc"><b>Currently in</b>San Diego, CA</div>
+  <div class="pbar"><i id="pbar"></i></div><div class="hint" id="hint"><span></span>Scroll</div>
+  <div class="side"><button class="nb" id="prev" aria-label="Previous car"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button><span class="cnt" id="cnt">01 / 04</span><button class="nb" id="next" aria-label="Next car" style="background:var(--t);color:var(--c)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg></button></div>
+  <div class="car" id="car">
+   <img id="carimg" alt="Collectible classic car" src="">
+  </div>
+  <div class="shadow"></div>
+  <div class="info"><div><h1 class="swap" id="name"><b>911 Carrera RS</b></h1><p class="swap" id="desc">Air-cooled, 3.8 litre flat-six. One careful owner and a full service history.</p></div><a class="det" href="#garage">Full details</a></div>
+ </div>
+</header>
+
+<main class="wrap">
+ <section class="intro"><p id="words">Every car here has been driven, inspected and documented by someone who loves it as much as you will.</p></section>
+ <section id="gallery" class="gwrap" aria-label="Gallery"><div class="gstick">
+ <div class="gh"><h2>The <b>garage</b>, up close.</h2><span id="gcount" class="gsw">01 / 04</span></div>
+ <div class="gyear gsw" id="gyear" aria-hidden="true">1973</div>
+ <div class="gt" id="gtrack"></div>
+ <div class="gi"><div><h3 class="gsw" id="gname"></h3><p class="gsw" id="gdesc"></p></div><div class="gr"><span class="gsw" id="gloc"></span><a class="det" href="#garage">Full details</a></div></div>
+ <div class="gdots" id="gdots"></div>
+</div></section>
+ <section id="garage"><h2 class="rv">Four cars. <b>All inspected</b> in person.</h2>
+  <div class="list rv" id="list"></div></section>
+ <section id="inspect"><div class="two"><div><h2 class="rv">60 points. <b>One honest report.</b></h2><p class="sub rv" style="color:var(--mut);margin-top:18px;max-width:30em">Before any car is listed, a specialist goes over it with a checklist and a camera. You get everything, including the flaws.</p>
+<ul class="chk rv"><li>Engine and gearbox compression and leak tests</li><li>Paint depth readings on every panel</li><li>Underbody, suspension and chassis photos</li><li>Full document and ownership trace</li></ul></div>
+<div class="bp" id="bp"><svg viewBox="0 0 600 230" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M34 160C30 140 36 124 56 117C96 108 150 98 196 90C220 66 246 50 290 48H340C376 50 402 72 424 92C454 96 486 98 512 104L526 112C530 126 530 146 522 162Z"/><path pathLength="1" d="M214 90C232 70 252 58 290 57H336C362 59 384 76 402 92Z"/><path pathLength="1" d="M474 104 506 88 536 92 532 108"/><circle pathLength="1" cx="140" cy="164" r="38"/><circle pathLength="1" cx="140" cy="164" r="22"/><circle pathLength="1" cx="420" cy="164" r="38"/><circle pathLength="1" cx="420" cy="164" r="22"/><path pathLength="1" d="M64 152H508"/></svg>
+<span class="pt" style="left:78%;top:36%"><i></i>Engine bay</span><span class="pt" style="left:44%;top:16%"><i></i>Paint 112 µm</span><span class="pt" style="left:16%;top:78%"><i></i>Brakes: pass</span></div></div></section>
+<section id="stats"><div class="two"><div class="gauge"><svg viewBox="0 0 200 160" aria-hidden="true"><path d="M30.7 140A80 80 0 1 1 169.3 140" fill="none" stroke="var(--line)" stroke-width="10" stroke-linecap="round"/><path id="garc" pathLength="1" d="M30.7 140A80 80 0 1 1 169.3 140" fill="none" stroke="#e3523f" stroke-width="10" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"/><g id="needle" style="transform-origin:100px 100px;transform:rotate(-120deg)"><line x1="100" y1="100" x2="100" y2="34" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/></g><circle cx="100" cy="100" r="8" fill="var(--ink)"/><text id="spd" x="100" y="136" text-anchor="middle" font-size="26" font-family="Bodoni Moda,serif">0</text><text x="100" y="152" text-anchor="middle" font-size="9">km/h</text></svg></div>
+<div class="sg rv"><div><b data-n="1240">0</b><span>Cars sold</span></div><div><b data-n="38">0</b><span>Countries delivered to</span></div><div><b data-n="60">0</b><span>Inspection points</span></div><div><b data-n="14">0</b><span>Average days to sell</span></div></div></div></section>
+ <section id="how"><h2 class="rv">From garage to <b>your driveway</b>.</h2>
+  <div class="steps"><div class="st rv"><h3>Browse and shortlist</h3><p>Every listing has 60+ photos and a service report.</p></div><div class="st rv"><h3>Book an inspection</h3><p>Our specialist visits the car and sends you a full written report.</p></div><div class="st rv"><h3>Buy with escrow</h3><p>Funds release only when the car and papers arrive as agreed.</p></div></div></section>
+ <section id="faq"><h2 class="rv">Questions, <b>answered</b>.</h2><div class="faq rv"><details><summary>Do you ship cars internationally?</summary><p>Yes. We arrange enclosed transport, export paperwork and insurance door to door in 38 countries.</p></details><details><summary>What if the car is not as described?</summary><p>Funds stay in escrow until you accept delivery. If the car differs from the report, you can walk away.</p></details><details><summary>Can I see a car in person first?</summary><p>Book a viewing at any of our garages, or have our specialist stream a live walk-around.</p></details><details><summary>How do I sell my own car?</summary><p>Request a valuation below. We inspect, photograph and list it, and you only pay when it sells.</p></details></div></section>
+ <div class="cta rv" id="join"><h2>Got a classic <b>worth showing</b>?</h2><a class="btn" href="#">Request a valuation</a></div>
+</main>
+
+<footer class="foot"><div class="wrap"><div class="fg">
+ <div><a class="logo" href="#">marque.</a><p>A quieter way to buy and sell collectible cars.</p></div>
+ <div><h4>Explore</h4><a href="#garage">Garage</a><a href="#how">How it works</a><a href="#">Journal</a></div>
+ <div><h4>Company</h4><a href="#">About</a><a href="#">Careers</a><a href="#">Press</a></div>
+ <div><h4>Contact</h4><a href="#">hello@marque.cars</a><a href="#">Instagram</a><a href="#">YouTube</a></div></div>
+ <div class="big" aria-hidden="true">marque.</div>
+ <div class="fb"><span>© 2026 marque.</span><span>Privacy · Terms</span></div></div></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
