@@ -8,7 +8,7 @@ const cars=[
     "c": "#e9aca1",
     "f": "#f5f5f2",
     "t": "#1d1b16",
-    "cut": "assets/cars/carrera-rs-2-7.webp",
+    "cut": "carrera-rs-2-7.webp",
     "pc": "#c8402c",
     "pt": "#ffffff",
     "ar": 2.229
@@ -22,7 +22,7 @@ const cars=[
     "c": "#f5dc98",
     "f": "#f5f5f2",
     "t": "#1d1b16",
-    "cut": "assets/cars/targa-restomod.webp",
+    "cut": "targa-restomod.webp",
     "pc": "#e6b54a",
     "pt": "#1d1b16",
     "ar": 2.227
@@ -36,7 +36,7 @@ const cars=[
     "c": "#a3c8bb",
     "f": "#f5f5f2",
     "t": "#1d1b16",
-    "cut": "assets/cars/964-widebody.webp",
+    "cut": "964-widebody.webp",
     "pc": "#24574a",
     "pt": "#ffffff",
     "ar": 3.287
@@ -50,7 +50,7 @@ const cars=[
     "c": "#b6a9d3",
     "f": "#f5f5f2",
     "t": "#1d1b16",
-    "cut": "assets/cars/ctr-clubsport.webp",
+    "cut": "ctr-clubsport.webp",
     "pc": "#3a2b57",
     "pt": "#ffffff",
     "ar": 1.823
